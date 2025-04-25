@@ -1,0 +1,30 @@
+:root {
+    font-size: 20px;
+}
+
+.pink {
+    color: rgb(255, 192, 203);
+}
+.blue {
+    color: skyblue;
+}
+
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;       /* Googleフォント使用 */
+    font-size: 2rem;                               /* ルートの2倍 */
+    letter-spacing: 0.12em;                        /* 文字間＝フォントサイズの1.2倍 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);    /* 影（色・大きさ自由） */
+    border-bottom: 3px solid rgb(115, 115, 114);   /* 下線：3px実線 */
+    margin: 0 0 20px 0;                            /* 下に余白 */
+}
+
+div p {
+    font-weight: bold;
+}
