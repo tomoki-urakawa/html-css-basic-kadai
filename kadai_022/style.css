@@ -1,0 +1,97 @@
+header {
+    margin-bottom: 20px;
+    background-color: rgb(244, 79, 79);
+    text-align: center;
+}
+
+
+h1 {
+    color: aliceblue;
+    margin: 0px;
+}
+
+main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#parent {
+    display: flex;
+    justify-content: space-around;
+ }
+
+.contents {
+    border: 3px solid rgb(238, 204, 204);
+ 
+    padding: 10px 15px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+h2 {
+    font-weight: 25px;
+}
+
+.contents p:nth-of-type(2)::first-letter {
+    font-weight: bold;
+    color: rgb(97, 206, 249);
+  }
+  
+.contents img {
+    margin: 10px 0;
+    width: 70%;
+  }
+  
+h2::before {
+    content: "●";
+    color: rgb(159, 36, 63);
+ }
+
+p {
+    margin: 0px
+}
+
+body {
+    margin: 0px
+}
+
+footer {
+    background-color: rgb(244, 79, 79);
+    text-align: center;
+}
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  footer a:visited {
+    color: rgb(193, 234, 251);
+  }
+  
+  footer a:hover {
+    color: rgb(245, 178, 168);
+  }
+
+<レスポンシブ対応のスタイル>
+
+@media (max-width: 768px) {
+    h2 {
+      font-size: 30px;
+    }
+  
+    p {
+      font-size: 25px;
+    }
+  
+    #parent {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .contents {
+      flex-basis: 100%; 
+    }
+  }
+  
